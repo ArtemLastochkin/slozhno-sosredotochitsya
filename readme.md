@@ -1,1 +1,0 @@
-https://github.com/ArtemLastochkin/slozhno-sosredotochitsya.git  
