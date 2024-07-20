@@ -13,18 +13,14 @@
 .header {
   height: 100vh;
   margin-block-end: 60px;
-  padding: 0 0 20px;
+  padding: 20px 0;
   background-image: var(--backgrond-page);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-}
-
-.header {
   position: relative;
   display: flex;
   flex-direction: column;
-  padding-block-start: 20px;
 }
 
 .header__theme-menu {
