@@ -1,1 +1,1 @@
-https://github.com/ArtemLastochkin/slozhno-sosredotochitsya.git
+https://github.com/ArtemLastochkin/slozhno-sosredotochitsya.git  
