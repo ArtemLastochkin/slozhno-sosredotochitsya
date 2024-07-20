@@ -8,6 +8,7 @@
   background-color: var(--backgrond-page-color);
   background-attachment: fixed;
   background-position: center;
+  overflow: auto;
 }
 
 .header {
