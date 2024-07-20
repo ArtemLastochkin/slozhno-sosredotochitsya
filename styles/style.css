@@ -5,16 +5,18 @@
   max-width: 1024px;
   font-family: "IBM Plex Mono", sans-serif;
   font-size: var(--main-font-size-text);
-  background-image: var(--backgrond-page);
+  background-color: var(--backgrond-page-color);
   background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 .header {
   height: 100vh;
   margin-block-end: 60px;
   padding: 0 0 20px;
+  background-image: var(--backgrond-page);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .header,
@@ -238,7 +240,7 @@
   grid-template-rows: 25px 1fr 25px;
   min-height: 100vh;
   margin: 0;
-  padding: 0 0 40px;
+  padding: 0 0 20px;
 }
 
 .footer__title-text {
