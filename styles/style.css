@@ -8,7 +8,6 @@
   background-color: var(--backgrond-page-color);
   background-attachment: fixed;
   background-position: center;
-  overflow: auto;
 }
 
 .header {
@@ -21,8 +20,7 @@
   background-attachment: fixed;
 }
 
-.header,
-.footer {
+.header {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -196,7 +194,7 @@
 /* начало секции с картинками */
 
 .galary {
-  margin-block-end: calc(var(--margin-section) + 5px);
+  margin-block-end: calc(var(--margin-section) - 20px);
   padding: 0px var(--padding-section);
 }
 
@@ -242,7 +240,7 @@
   grid-template-rows: 25px 1fr 25px;
   min-height: 100vh;
   margin: 0;
-  padding: 0 0 20px;
+  padding: 20px 0;
 }
 
 .footer__title-text {
@@ -376,7 +374,7 @@
   }
 
   .footer {
-    padding: 0 0 10px;
+    padding: 10px 0;
   }
 
   .footer::after {
@@ -385,7 +383,6 @@
 
   .footer::before {
     margin-inline-end: 10px;
-    margin-block-start: 10px;
   }
 }
 
