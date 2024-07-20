@@ -1,12 +1,125 @@
-/*
-  Специально для тёмной темы при наличии класса,
-  здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
-.page.theme_dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+:root .theme_dark {
+  --color-text-section: #ff0070;
+  --color-text-title: #db00ff;
+  --color-title-section: #ff0070;
+  --header-paragraph-text: #000028;
+  --paragraph-text: #f1b2ce;
+  --color-background-text: #ff0070;
+  --backgrond-page: url(../images/cover-image-dark.png);
 }
+
+.theme_dark .rec::after {
+  content: "";
+  position: absolute;
+  top: 28px;
+  right: 30px;
+  display: block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  box-shadow: var(--color-text-section) 0px 0px 4px 2px;
+  background-color: var(--color-text-section);
+}
+
+.theme_dark .rec::before {
+  content: "rec";
+  position: absolute;
+  top: 20px;
+  right: 48px;
+  color: var(--color-text-section);
+  font-size: var(--main-font-size-text);
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+@media (width < 768px) {
+  .theme_dark .rec::before {
+    top: 10px;
+    right: 38px;
+  }
+
+  .theme_dark .rec::after {
+    top: 18px;
+    right: 20px;
+  }
+}
+
+@media (width < 768px) {
+  .theme_auto .rec::before {
+    top: 10px;
+    right: 38px;
+  }
+
+  .theme_auto .rec::after {
+    top: 18px;
+    right: 20px;
+  }
+}
+
+/* предпочтение ОС пользователя dark */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-text-section: #ff0070;
+    --color-text-title: #db00ff;
+    --color-title-section: #ff0070;
+    --header-paragraph-text: #000028;
+    --paragraph-text: #f1b2ce;
+    --color-background-text: #ff0070;
+    --backgrond-page: url(../images/cover-image-dark.png);
+  }
+
+  .theme_auto .rec::after {
+    content: "";
+    position: absolute;
+    top: 28px;
+    right: 30px;
+    display: block;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    box-shadow: var(--color-text-section) 0px 0px 4px 2px;
+    background-color: var(--color-text-section);
+  }
+
+  .theme_auto .rec::before {
+    content: "rec";
+    position: absolute;
+    top: 20px;
+    right: 48px;
+    color: var(--color-text-section);
+    font-size: var(--main-font-size-text);
+    line-height: 25px;
+    text-transform: uppercase;
+  }
+
+  @media (width < 768px) {
+    .theme_dark .rec::before {
+      top: 10px;
+      right: 38px;
+    }
+
+    .theme_dark .rec::after {
+      top: 18px;
+      right: 20px;
+    }
+  }
+
+  @media (width < 768px) {
+    .theme_auto .rec::before {
+      top: 10px;
+      right: 38px;
+    }
+
+    .theme_auto .rec::after {
+      top: 18px;
+      right: 20px;
+    }
+  }
+
+}
+
+
+
+
+

@@ -1,4 +1,19 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --color-shadow-title-header: #ff0070;
+  --main-font-size-text: 18px;
+  --normal-font-weight: 400;
+  --bold-font-weight: 700;
+  --color-background-text: #ff8dcb;
+  --color-text-title: #ffc2e6;
+  --color-title-section: #353430;
+  --header-paragraph-text: #353430;
+  --paragraph-text: #353430;
+  --color-text-section: #353430;
+  --hover-button-menu-theme: hsla(48, 5%, 19%, 0.4);
+  --main-line-height: 23.4px;
+  --margin-section: 80px;
+  --margin-gap-title-text: 20px;
+  --padding-section: 20px;
+  --line-height-title-header-text: 130px;
+  --backgrond-page: url(../images/cover-image-light.png);
+}
