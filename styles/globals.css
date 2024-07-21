@@ -40,6 +40,10 @@ a {
   line-height: inherit;
 }
 
+button {
+  cursor: pointer;
+}
+
 button:focus-visible, a:focus-visible {
   outline: none;
 }

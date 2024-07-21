@@ -6,6 +6,7 @@
   --color-text-section: #353430;
   --header-paragraph-text: #353430;
   --paragraph-text: #353430;
+  --color-link-focus: #353430;
   --hover-button-menu-theme: hsla(48, 5%, 19%, 0.4);
   --backgrond-page-color: #FFF1F7;
   --backgrond-page: url(../images/cover-image-light.png);
@@ -21,9 +22,9 @@
     --color-text-section: #353430;
     --header-paragraph-text: #353430;
     --paragraph-text: #353430;
+    --color-link-focus: #353430;
     --hover-button-menu-theme: hsla(48, 5%, 19%, 0.4);
     --backgrond-page-color: #FFF1F7;
     --backgrond-page: url(../images/cover-image-light.png);
-  }
-  
+  } 
 }
