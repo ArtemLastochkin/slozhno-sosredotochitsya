@@ -13,6 +13,7 @@
 }
 
 /* предпочтение ОС пользователя light */
+
 @media (prefers-color-scheme: light) {
   :root {
     --color-shadow-title-header: #ff0070;
@@ -26,6 +27,6 @@
     --hover-button-menu-theme: hsla(48, 5%, 19%, 0.4);
     --backgrond-page-color: #FFF1F7;
     --backgrond-page: url(../images/cover-image-light.png);
-  } 
+  }
   
 }
