@@ -10,6 +10,7 @@
   --hover-button-menu-theme: hsla(48, 5%, 19%, 0.4);
   --backgrond-page-color: #FFF1F7;
   --backgrond-page: url(../images/cover-image-light.png);
+  --rec-display: none;
 }
 
 /* предпочтение ОС пользователя light */
@@ -28,5 +29,4 @@
     --backgrond-page-color: #FFF1F7;
     --backgrond-page: url(../images/cover-image-light.png);
   }
-  
 }

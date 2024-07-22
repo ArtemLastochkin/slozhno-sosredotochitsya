@@ -8,6 +8,7 @@
   --backgrond-page-color: #000028;
   --color-link-focus: #F1B2CE;
   --backgrond-page: url(../images/cover-image-dark.png);
+  --rec-display: block;
 }
 
 /* предпочтение ОС пользователя dark */
@@ -24,43 +25,9 @@
     --color-link-focus: #F1B2CE;
     --hover-button-menu-theme: #ff007066;
     --backgrond-page: url(../images/cover-image-dark.png);
+    --rec-display: block;
   }
 
-  .rec::after {
-    content: "";
-    position: absolute;
-    top: 28px;
-    right: 30px;
-    display: block;
-    width: 9px;
-    height: 9px;
-    border-radius: 50%;
-    box-shadow: var(--color-text-section) 0px 0px 4px 2px;
-    background-color: var(--color-text-section);
-  }
-
-  .rec::before {
-    content: "rec";
-    position: absolute;
-    top: 20px;
-    right: 48px;
-    color: var(--color-text-section);
-    font-size: var(--main-font-size-text);
-    line-height: 25px;
-    text-transform: uppercase;
-  }
-
-  @media (width < 768px) {
-    .rec::before {
-      top: 10px;
-      right: 38px;
-    }
-
-    .rec::after {
-      top: 18px;
-      right: 20px;
-    }
-  }
 }
 
 

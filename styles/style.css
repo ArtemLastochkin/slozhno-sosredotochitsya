@@ -176,10 +176,6 @@
   gap: 20px;
 }
 
-.how .section__text {
-  margin: 10px 0px 0px;
-}
-
 .how__paragraph-color {
   color: var(--header-paragraph-text);
   font-weight: 400;
@@ -256,14 +252,14 @@
 
 /* конец футера */
 
-/* dark theme */
+/* dark theme rec pseudo */
 
-.theme_dark .rec::after {
+.rec::after {
   content: "";
   position: absolute;
   top: 28px;
   right: 30px;
-  display: block;
+  display: var(--rec-display);
   width: 9px;
   height: 9px;
   border-radius: 50%;
@@ -271,23 +267,16 @@
   background-color: var(--color-text-section);
 }
 
-.theme_dark .rec::before {
+.rec::before {
   content: "rec";
   position: absolute;
   top: 20px;
   right: 48px;
+  display: var(--rec-display);
   color: var(--color-text-section);
   font-size: var(--main-font-size-text);
   line-height: 25px;
   text-transform: uppercase;
-}
-
-.theme_light .rec::after {
-  display: none;
-}
-
-.theme_light .rec::before {
-  display: none;
 }
 
 /* Общие media */
@@ -415,13 +404,14 @@
     margin-inline-end: 10px;
   }
 
-  .theme_dark .rec::before {
+  .rec::before {
     top: 10px;
     right: 38px;
   }
 
-  .theme_dark .rec::after {
+  .rec::after {
     top: 18px;
     right: 20px;
   }
+
 }
